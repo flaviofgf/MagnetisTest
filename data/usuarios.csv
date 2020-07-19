@@ -1,0 +1,101 @@
+﻿user_id;dados_pessoais;nivel_de_risco;objetivo;perfil_de_risco;fez_adicional;fez_resgate_parcial;fez_resgate_total;poupanca;renda_fixa;renda_variavel
+1;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "40"};3;build_wealth;medium;1;0;0;100000;;
+2;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "38"};4;build_wealth;low;1;1;0;190000;190000;
+3;{"genero": "male", "estado_civil": "UNIAO ESTAVEL", "idade": "32"};5;build_wealth;medium;1;0;0;;1200;
+4;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};3;secure_retirement;medium;1;0;0;;;
+5;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "45"};5;secure_retirement;high;1;1;0;20000;7500;
+6;{"genero": "female", "estado_civil": "DIVORCIADO(A)", "idade": "51"};2;child_education;low;1;1;0;50000;400000;30000
+7;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "44"};5;build_wealth;high;1;1;0;;300000;
+8;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "31"};3;build_wealth;low;1;1;1;;24000;
+9;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "25"};5;build_wealth;high;1;0;0;;;
+10;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "44"};4;build_wealth;medium;1;1;0;;;
+11;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "50"};3;secure_retirement;high;1;0;0;1000000;4000000;1000000
+12;{"genero": "male", "estado_civil": "UNIAO ESTAVEL", "idade": "36"};4;secure_retirement;medium;1;1;0;;;
+13;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "43"};4;secure_retirement;low;1;1;0;;600000;200000
+14;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "48"};4;build_wealth;medium;1;1;0;;70000;2000
+15;{"genero": "female", "estado_civil": "VIUVO(A)", "idade": "73"};3;secure_retirement;low;1;0;0;200000;800000;200000
+16;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};4;build_wealth;high;1;0;1;;160000;40000
+17;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "27"};4;buy_house_or_car;low;1;1;0;100000;;
+18;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};5;build_wealth;medium;0;1;0;2000000;;
+19;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATURALIZADO(A)", "idade": "43"};3;secure_retirement;medium;1;1;0;;;
+20;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "44"};2;build_wealth;medium;1;1;1;10000;1500;6000
+21;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "25"};3;build_wealth;medium;1;1;0;;350000;150000
+22;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "28"};4;buy_house_or_car;low;1;1;0;;4000000;400000
+23;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "39"};2;build_wealth;risk-free;1;1;0;1100000;;
+24;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "48"};4;build_wealth;low;1;1;0;;;
+25;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "52"};4;build_wealth;medium;0;0;0;;1000;
+26;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "44"};4;build_wealth;high;0;1;0;;;
+27;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "31"};2;secure_retirement;medium;1;1;0;;;
+28;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};3;build_wealth;high;1;1;0;500000;300000;200000
+29;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "34"};3;build_wealth;high;1;0;0;;;
+30;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "40"};2;build_wealth;high;1;1;0;20000;;
+31;{"genero": "female", "estado_civil": "UNIAO ESTAVEL", "idade": "49"};1;secure_retirement;risk-free;0;0;0;3000;20000;50000
+32;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "34"};2;build_wealth;risk-free;1;0;0;500;44000;15000
+33;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "30"};2;buy_house_or_car;low;1;0;0;;;
+34;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "29"};4;build_wealth;medium;0;0;0;;;
+35;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "42"};4;build_wealth;high;0;0;0;;100000;
+36;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "30"};3;build_wealth;medium;1;0;0;5000;26912.65;
+37;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};3;build_wealth;low;1;0;0;10000;3510000;130000
+38;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "26"};3;build_wealth;risk-free;1;0;0;;;100000
+39;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "34"};3;secure_retirement;medium;1;0;0;137000;;
+40;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "32"};5;build_wealth;medium;1;1;0;100000;100000;100000
+41;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "31"};3;buy_house_or_car;low;1;1;0;3000;36000;
+42;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "34"};2;buy_house_or_car;risk-free;1;0;0;250000;;
+43;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "29"};3;build_wealth;low;1;1;0;;200000;
+44;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "32"};4;buy_house_or_car;risk-free;1;0;0;5000000;5000000;
+45;{"genero": "male", "estado_civil": "UNIAO ESTAVEL", "idade": "35"};3;build_wealth;high;0;0;0;30000;600;
+46;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};4;secure_retirement;low;1;0;0;;;
+47;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "26"};3;buy_house_or_car;risk-free;1;0;0;1000;;10000
+48;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "27"};3;buy_house_or_car;low;1;0;0;;131000;7000
+49;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};5;buy_house_or_car;low;0;0;0;;;
+50;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "26"};3;build_wealth;risk-free;1;1;0;50000;88600;482000
+51;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "51"};2;build_wealth;low;1;1;1;100000;90000;10000
+52;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "75"};3;build_wealth;low;1;0;0;20000;10000;10000
+53;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "37"};2;build_wealth;risk-free;1;0;0;;;
+54;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "28"};3;build_wealth;high;1;0;1;25000;5000;10000
+55;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "40"};3;child_education;high;0;1;0;31000;24000;1000
+56;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "34"};2;build_wealth;medium;1;0;0;;;
+57;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "39"};4;build_wealth;high;1;1;0;;;
+58;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "32"};3;buy_house_or_car;low;1;1;0;;500000;
+59;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "45"};2;build_wealth;medium;0;0;0;324324;324324;34123
+60;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "45"};2;secure_retirement;low;0;0;0;;;
+61;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "47"};2;build_wealth;medium;1;0;1;;;
+62;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "61"};3;build_wealth;high;0;0;0;10000;1000;5000
+63;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "36"};4;build_wealth;medium;1;1;0;;;98000
+64;{"genero": "female", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "46"};3;build_wealth;medium;1;0;0;12200;14700.2;
+65;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "41"};4;build_wealth;medium;0;0;0;;;
+66;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "28"};3;secure_retirement;medium;1;0;0;;850000;
+67;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "31"};5;build_wealth;medium;1;1;0;;29000;
+68;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "31"};5;secure_retirement;medium;1;1;0;100000;;
+69;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "29"};3;build_wealth;medium;0;0;0;10000;500000;30000
+70;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "39"};1;build_wealth;low;1;0;0;22000;;
+71;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "51"};3;build_wealth;medium;1;0;0;;;
+72;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "29"};3;buy_house_or_car;low;0;1;0;2000000;1000000;1000000
+73;{"genero": "male", "estado_civil": "DIVORCIADO(A)", "idade": "37"};5;build_wealth;high;1;1;0;;10000;
+74;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "31"};4;build_wealth;medium;0;0;0;;34000;
+75;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "33"};1;build_wealth;low;1;1;0;;30000;
+76;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "36"};3;build_wealth;medium;0;0;0;2000;18000;30000
+77;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "30"};3;secure_retirement;high;0;1;0;;;1000
+78;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "29"};3;build_wealth;risk-free;1;0;0;;;
+79;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "30"};5;secure_retirement;low;1;1;0;;;
+80;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "36"};5;secure_retirement;high;0;1;0;295000;713000;
+81;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "41"};1;secure_retirement;risk-free;1;1;0;;50000;30000
+82;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "25"};2;build_wealth;risk-free;1;0;1;300000;300000;40000
+83;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "27"};2;build_wealth;risk-free;1;1;0;30000;200000;
+84;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "27"};4;build_wealth;medium;1;0;0;2010.37;2300000;5000
+85;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "26"};4;build_wealth;high;1;1;0;;;
+86;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "33"};3;child_education;high;1;0;0;100000;15000;
+87;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "35"};4;build_wealth;medium;1;1;0;25000;2000;3000
+88;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "39"};3;secure_retirement;high;1;0;0;;;
+89;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "26"};5;build_wealth;medium;1;0;0;5000;160000;5000
+90;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "35"};1;build_wealth;low;1;1;0;;;
+91;{"genero": "female", "estado_civil": "DIVORCIADO(A)", "idade": "57"};5;build_wealth;medium;1;1;0;50000;73134.77;
+92;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "46"};1;secure_retirement;low;0;1;1;2000;8000;5000
+93;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "29"};4;build_wealth;medium;1;0;0;47633.68;237940.01;18794.87
+94;{"genero": "male", "estado_civil": "CASADO(A) COM BRASILEIRO(A) NATO(A)", "idade": "43"};3;secure_retirement;medium;1;1;1;;;
+95;{"genero": "male", "estado_civil": "SOLTEIRO(A)", "idade": "30"};3;buy_house_or_car;medium;0;0;0;;;
+96;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "34"};4;build_wealth;medium;1;1;0;;;
+97;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "45"};4;build_wealth;medium;1;0;0;;;
+98;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "21"};4;build_wealth;high;1;0;0;;;
+99;{"genero": "female", "estado_civil": "UNIAO ESTAVEL", "idade": "48"};4;build_wealth;medium;1;0;0;;36080000;
+100;{"genero": "female", "estado_civil": "SOLTEIRO(A)", "idade": "4"};5;build_wealth;high;1;0;0;;;
