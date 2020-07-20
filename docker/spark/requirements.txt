@@ -1,0 +1,6 @@
+apache-airflow
+docker
+matplotlib
+psycopg2-binary
+pyspark
+pyspark-stubs

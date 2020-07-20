@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres_container
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+
+  airflow:
+    build: ./docker/airflow
+    container_name: airflow_container
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      - LOAD_EX=n
+      - EXECUTOR=Local
+    volumes:
+      - ./dags:/usr/local/airflow/dags
+      - ./data:/usr/local/airflow/data
+    ports:
+      - '8080:8080'
+    command: webserver
+
+  spark:
+    build: ./docker/spark
+    container_name: spark_container
+    volumes:
+      - ./data:/data
+    ports:
+      - '8888:8888'
+    tty: true
