@@ -124,3 +124,7 @@ dmypy.json
 
 # PyCharm
 .idea/
+
+# Result
+/data/result.csv
+/data/refined_zone/

@@ -3,15 +3,16 @@ version: '3.7'
 services:
   postgres:
     image: postgres
-    container_name: postgres_container
     environment:
       - POSTGRES_USER=airflow
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
 
   airflow:
-    build: ./docker/airflow
-    container_name: airflow_container
+    build:
+      context: ./docker/airflow
+      args:
+      - AIRFLOW_DEPS=all
     restart: always
     depends_on:
       - postgres
@@ -19,8 +20,11 @@ services:
       - LOAD_EX=n
       - EXECUTOR=Local
     volumes:
+      - /var/run/docker.sock://var/run/docker.sock
       - ./dags:/usr/local/airflow/dags
       - ./data:/usr/local/airflow/data
+      - ./notebook:/usr/local/airflow/notebook
+      - ./work:/usr/local/airflow/work
     ports:
       - '8080:8080'
     command: webserver
@@ -29,7 +33,9 @@ services:
     build: ./docker/spark
     container_name: spark_container
     volumes:
-      - ./data:/data
+      - ./data:/home/jovyan/data
+      - ./notebook:/home/jovyan/notebook
+      - ./work:/home/jovyan/work
     ports:
       - '8888:8888'
     tty: true
