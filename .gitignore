@@ -127,4 +127,6 @@ dmypy.json
 
 # Result
 /data/result.csv
+/data/ipynb_result.csv
+/data/sql_result.csv
 /data/refined_zone/

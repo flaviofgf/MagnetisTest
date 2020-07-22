@@ -1,12 +1,23 @@
 version: '3.7'
 
 services:
-  postgres:
+  airflow_db:
     image: postgres
     environment:
       - POSTGRES_USER=airflow
       - POSTGRES_PASSWORD=airflow
       - POSTGRES_DB=airflow
+
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_DB=airflow
+    ports:
+      - '5434:5432'
+    volumes:
+      - ./data:/data
 
   airflow:
     build:
@@ -15,23 +26,23 @@ services:
       - AIRFLOW_DEPS=all
     restart: always
     depends_on:
+      - airflow_db
       - postgres
     environment:
       - LOAD_EX=n
       - EXECUTOR=Local
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgres://airflow:airflow@airflow_db:5432
     volumes:
       - /var/run/docker.sock://var/run/docker.sock
       - ./dags:/usr/local/airflow/dags
       - ./data:/usr/local/airflow/data
-      - ./notebook:/usr/local/airflow/notebook
-      - ./work:/usr/local/airflow/work
+      - ./sql:/usr/local/airflow/sql
     ports:
       - '8080:8080'
     command: webserver
 
   spark:
     build: ./docker/spark
-    container_name: spark_container
     volumes:
       - ./data:/home/jovyan/data
       - ./notebook:/home/jovyan/notebook
