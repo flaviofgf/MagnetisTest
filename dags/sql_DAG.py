@@ -70,10 +70,12 @@ with DAG(
             bash_command='echo "finish SQL dag"',
     )
     
-    init >> create_table_raw_users >> create_table_users >> extract_users_csv >> refine_table_users
-    init >> create_table_raw_funnel >> create_table_funnel >> extract_funnel_csv >> refine_table_funnel
-
-    refine_table_users >> get_result
-    refine_table_funnel >> get_result
+    init >> create_table_raw_users >> extract_users_csv
+    init >> create_table_raw_funnel >> extract_funnel_csv
+    init >> create_table_users >> extract_users_csv
+    init >> create_table_funnel >> extract_funnel_csv
+    
+    extract_users_csv >> refine_table_users >> get_result
+    extract_funnel_csv >> refine_table_funnel >> get_result
     
     get_result >> finish

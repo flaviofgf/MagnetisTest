@@ -20,7 +20,7 @@ users.df = users.df.select(
         date_format(col('f1.timestamp'), 'yyyy-MM').alias('homepage'),
         col('f2.valor_simulado').alias('valor_simulado'),
         col('flag_investidor_recorrente'), col('investimentos_externos')
-).distinct()
+).orderBy(col('user_id'))
 
 users.write_csv('../data/result.csv')
 print('Got result')

@@ -13,6 +13,7 @@ COPY (
     FROM public.users u
              LEFT JOIN funnel f1 ON u.user_id = f1.user_id AND f1.primeiro_evento = TRUE
              LEFT JOIN funnel f2 ON u.user_id = f2.user_id AND f2.ultimo_valor_simulado = TRUE
+    ORDER BY user_id
     )
     TO '/data/sql_result.csv'
     DELIMITER ';'
