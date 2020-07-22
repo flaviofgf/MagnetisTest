@@ -6,7 +6,7 @@ from airflow.utils.dates import days_ago
 
 args = {
     'owner':           'flaviofgf',
-    'description':     'test',
+    'description':     'etl in pyspark',
     'start_date':      days_ago(1),
     'provide_context': True,
 }
