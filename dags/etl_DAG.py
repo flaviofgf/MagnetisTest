@@ -1,3 +1,5 @@
+import os
+
 from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.docker_operator import DockerOperator
@@ -15,8 +17,8 @@ docker_operator_args = {
     'image':       'magnetis_test_spark:latest',
     'docker_url':  'host.docker.internal:2375',
     'volumes':     [
-        'D:/Projects/magnetis_test/data:/home/jovyan/data',
-        'D:/Projects/magnetis_test/work:/home/jovyan/work',
+        f"{os.environ['HOST_MAIN_PATH']}/data:/home/jovyan/data",
+        f"{os.environ['HOST_MAIN_PATH']}/work:/home/jovyan/work",
     ],
     'auto_remove': True,
     'tty':         True,
