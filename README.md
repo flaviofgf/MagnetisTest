@@ -86,7 +86,6 @@ um para pegar a data do primeiro evento e outra para pegar o último valor simul
     + **Git**: última versão
 
 1. Instalar/Atualizar o **Docker**;
-1. Certificar que a opção `Expose daemon on tcp://localhost:2375 without TLS` esteja habilitada;
 1. Clonar este repositório em uma pasta local: `git clone https://github.com/flaviofgf/magnetis_test.git`
 1. Editar a variável de ambiente do [Dockerfile](https://github.com/flaviofgf/magnetis_test/blob/master/docker/airflow/Dockerfile)
 do **Airflow** [linha 9](https://github.com/flaviofgf/magnetis_test/blob/ea921141d206033bfba08a74d1c1eadbf3be7771/docker/airflow/Dockerfile#L9):
